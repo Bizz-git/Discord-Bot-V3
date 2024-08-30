@@ -1,0 +1,13 @@
+{
+    "username": "Mimmo",
+    "description": "Te",
+    "prefix": ".",
+    "voice": 1.0,
+    "music": 0.3,
+    "sound": 1.0,
+    "music_path": "./source/audio/music/",
+    "sound_path": "./source/audio/sound/",
+    "talk_path": "./source/audio/speech/speech",
+    "deleted_messages_path": "./source/logging/deleted_messages/",
+    "games_path": "./source/games/"
+}
