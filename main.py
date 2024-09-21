@@ -19,11 +19,16 @@ from playsound import playsound
 from gtts import gTTS
 import asyncio
 import logging
+from dotenv import load_dotenv
 
 # custom function -> utils.py
 from utils import ConfigManager, os, random
 from discord_queue import MusicQueue
 
+
+# load token
+load_dotenv()
+TOKEN = os.getenv('DISCORD_BOT_TOKEN')
 
 # Configura il logging
 logging.basicConfig(level=logging.INFO)
