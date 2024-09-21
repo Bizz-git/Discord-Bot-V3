@@ -687,4 +687,4 @@ async def game(ctx, *, msg: str):
 
 ###########################################################################
 # @management
-client.run('NzcyNTQ0MjA5MzU3NTA0NTQx.X58N3A.XuRe2RMstIC-sNb1OEDk3jJdRvI')
+client.run(TOKEN)
